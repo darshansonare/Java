@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: JmsKafka
+  activemq:
+    broker-url: vm://embedded?broker.persistent=false,useShutdownHook=false
+    in-memory: true
+    packages:
+      trust-all: true
